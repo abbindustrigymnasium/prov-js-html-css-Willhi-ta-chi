@@ -10,7 +10,24 @@
     <!-- Här ska din HTML kod vara -->
 
     <script>
-        // Här ska din JavaScript kod vara
+        let numbers = [12, 25, 37, 43, 59, 61]
+
+        result = numbers.filter(filterEvenNUmbers);
+        
+        function filterEvenNUmbers(number){
+            for(let i = 0; i < number.length; i ++){
+                if (number[i] % 1 != 0){
+                   number.splice(index, i);
+                }
+            }
+            
+            new_list = number;
+            return new_list;
+        
+        }
+        
+        console.log(result);
+
 
 
     </script>
